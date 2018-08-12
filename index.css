@@ -809,6 +809,22 @@
   src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v10/tDbD2oWUg0MKqScQ7Q.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
 /*for global preference*/
 body
@@ -863,68 +879,70 @@ body
     justify-content: center;
     align-items: center;
     height: 50rem;
-    background: url("https://www.adazing.com/wp-content/uploads/2018/08/1057248_1280x720.jpg")center center no-repeat;
+    background: url("https://c.wallhere.com/photos/54/1e/nature_landscape_coast_long_exposure_starry_night_Milky_Way_storm_sea-127821.jpg!d")center center no-repeat;
     background-size: cover;
     position: relative;
 }
 /*main title*/
 .banner h1
 {
-    font-family: Kirang Haerang, sans-serif;
+    font-family: Raleway, sans-serif;
     text-align: center;
     padding-top: 1.11rem;
     font-size: 6rem;
     font-weight: 900;
+    color: white;
+    opacity: 0.75;
 }
 /*subtitle*/
 .banner h2
 {
     padding: 0;
     text-align: center;
-    font-family: "Work Sans". Arial;
-    border-top: 3px solid #000000;
-    border-bottom: 3px solid #000000;
+    font-family: 'Kirang Haerang'. Arial;
     font-weight: 500;
-}
-/*first photo*/
-.photo 
-{
-    width: 75%;
-    padding: 1.11rem;
-    border-radius: 5px;
-    margin: 0 auto 0 auto;
-    background-color: white;
-}
-.photo .image-container {
-  overflow: hidden;
-  margin-bottom: 1.11rem;
+    color: white;
+    opacity: 0.75;
 }
 
-.photo .image-container img {
-  width: 100%;
-}
-
-.photo .caption {
-  font-style: italic;
-  font-family: "Merriweather",serif;
-}
-
-.photo.first {
-  position: relative;
-  top: -2.77rem;
-  margin-bottom: 1.67rem;
-}
 /*content*/
 .content 
 {
-    background-color: palegoldenrod;
+    background-color: lightsteelblue;
     padding: 0 25% 4rem 25%;
+}
+content h2
+{
+    font-weight: 900;
 }
 .content p {
   padding-bottom: 2.77rem;
-  font-size: 20px;
+  font-size: 12px;
   line-height: 1.5;
-  text-align:center;
- 
+  color:grey;
 }
+.content li 
+{
+    font-family: Calibri;
+    font-size: 21px;
+}
+.footer 
+{
+    height: 4rem;
+    background-color: #323232;
+    padding: 10px;
+    
+}
+.About
+{
+    font-family: Arvo, Arial;
+    color: white;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.footer p 
+{
+    color: white;
+}
+
 
