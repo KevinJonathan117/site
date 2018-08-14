@@ -926,6 +926,32 @@ content h2
     font-family: Calibri;
     font-size: 21px;
 }
+/*button config*/
+.content li a
+{   
+    text-decoration:none;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 5px;
+    border-radius: 5px;
+}
+.content li a:hover
+{   
+    text-decoration:none;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 5px;
+    border-radius: 5px;
+}
+/*footer section*/
 .footer 
 {
     height: 4rem;
@@ -935,7 +961,7 @@ content h2
 }
 .About
 {
-    font-family: Arvo, Arial;
+    font-family: Raleway, Arial;
     color: white;
     font-weight: 700;
     margin-top: 50px;
