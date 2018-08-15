@@ -873,11 +873,23 @@ body
     font-family: Arvo, Arial;
     font-size:20px;
 }
+.header .logo a
+{
+    text-decoration:none;
+    color: white;
+}
 /*nav lists*/
 .header li
 { 
     display: inline-block;
-    padding: 10px;
+    padding: 12px;
+}
+.header li:hover 
+{
+    display: inline-block;
+    padding: 12px;
+    border-bottom: solid 3px;
+    border-bottom-color: white;
 }
 /*nav list link preview*/
 .header li a 
