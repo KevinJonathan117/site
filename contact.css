@@ -884,6 +884,13 @@ body
     display: inline-block;
     padding: 10px;
 }
+.header li:hover 
+{
+    display: inline-block;
+    padding: 12px;
+    border-bottom: solid 3px;
+    border-bottom-color: white;
+}
 /*nav list link preview*/
 .header li a 
 {
