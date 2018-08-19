@@ -1,0 +1,51 @@
+﻿/*banner settings*/
+.banner {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    background: url("https://www.adazing.com/wp-content/uploads/2018/08/1057248_1280x720.jpg")center center no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    border-radius: 0.5rem;
+}
+    /*main title*/
+    .banner h1 {
+        font-family: Kirang Haerang, sans-serif;
+        text-align: center;
+        padding-top: 1.11rem;
+        font-size: 6rem;
+        font-weight: 900;
+    }
+    /*subtitle*/
+    .banner h2 {
+        padding: 0;
+        text-align: center;
+        font-family: "Work Sans". Arial;
+        border-top: 3px solid #000000;
+        border-bottom: 3px solid #000000;
+        font-weight: 500;
+    }
+@media only screen and (max-width: 750px) {
+    .banner {
+        height: 40rem;
+    }
+
+        .banner h1 {
+            font-size: 8rem;
+        }
+}
+
+@media only screen and (max-width: 530px) {
+    .banner {
+        height: 30rem;
+    }
+
+        .banner h1 {
+            font-size: 6rem;
+        }
+}

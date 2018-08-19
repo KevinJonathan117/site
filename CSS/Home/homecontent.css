@@ -1,0 +1,61 @@
+﻿/*content*/
+.content 
+{
+    background-color: lightsteelblue;
+    margin-top: 0.25rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+    padding: 0 25% 4rem 25%;
+    font-family: Ubuntu,sans-serif;
+    border-radius: 0.5rem;
+}
+content h2
+{
+    font-weight: 900;
+}
+.content p {
+  padding-bottom: 1rem;
+  font-size: 12px;
+  line-height: 1;
+  color:grey;
+}
+.content li 
+{
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    line-height:4rem;
+}
+/*button config*/
+.content li a
+{   
+    text-decoration:none;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: solid 1px;
+    border-radius: 7px;
+    border-color: #000000;
+}
+.content li a:hover
+{   
+    text-decoration:none;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: solid 1px;
+    border-radius: 7px;
+}
+@media only screen and (max-width: 680px) {
+    .content {
+        padding: 0 10% 4rem 10%;
+    }
+}
+
+

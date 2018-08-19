@@ -1,0 +1,28 @@
+﻿/*footer section*/
+.footer {
+    height: 4rem;
+    background-color: #323232;
+    padding: 10px;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+    border-radius: 0.5rem;
+}
+
+.About {
+    font-family: Raleway, Arial;
+    color: white;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.footer p {
+    color: white;
+    font-style: italic;
+    margin-top: 0.25rem;
+}
+@media only screen and (max-width: 750px) {
+    footer {
+        flex-direction: column;
+        padding: 0 10% 2rem 10%;
+    }

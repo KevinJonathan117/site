@@ -1,0 +1,53 @@
+﻿/*banner settings*/
+.banner {
+    margin-top: 5rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    background: url("https://c.wallhere.com/photos/54/1e/nature_landscape_coast_long_exposure_starry_night_Milky_Way_storm_sea-127821.jpg!d")center center no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 0.5rem;
+}
+    /*main title*/
+    .banner h1 {
+        font-family: Raleway, sans-serif;
+        text-align: center;
+        padding-top: 1.11rem;
+        font-size: 6rem;
+        font-weight: 900;
+        color: white;
+        opacity: 0.75;
+    }
+    /*subtitle*/
+    .banner h2 {
+        padding: 0;
+        text-align: center;
+        font-family: 'Kirang Haerang'. Arial;
+        font-weight: 500;
+        color: white;
+        opacity: 0.75;
+    }
+@media only screen and (max-width: 750px) {
+    .banner {
+        height: 40rem;
+    }
+
+        .banner h1 {
+            font-size: 8rem;
+        }
+}
+
+@media only screen and (max-width: 530px) {
+    .banner {
+        height: 30rem;
+    }
+
+        .banner h1 {
+            font-size: 6rem;
+        }
+}

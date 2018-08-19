@@ -1,0 +1,28 @@
+﻿/*first photo*/
+.photo {
+    width: 75%;
+    padding: 1.11rem;
+    border-radius: 5px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+}
+
+    .photo .image-container {
+        overflow: hidden;
+        margin-bottom: 1.11rem;
+    }
+
+        .photo .image-container img {
+            width: 100%;
+        }
+
+    .photo .caption {
+        font-style: italic;
+        font-family: "Merriweather",serif;
+    }
+
+    .photo.first {
+        position: relative;
+        top: -2.77rem;
+        margin-bottom: 1.67rem;
+    }
