@@ -10,6 +10,17 @@
     <link href="CSS/Home/homebanner.css" type="text/css" rel="stylesheet">
     <link href="CSS/Home/homecontent.css" type="text/css" rel="stylesheet">
     <title>Home</title>
+    <script language="javascript">
+        document.onmousedown = disableclick;
+        status = "Right Click Disabled";
+        function disableclick(e)
+        {
+            if (event.button == 2) {
+                alert(status);
+                return false;
+            }
+        }
+    </script>
 </head>
 <body>
     <!--header of page-->
