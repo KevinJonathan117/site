@@ -1,10 +1,10 @@
 ﻿/*navigation bar*/
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 4.44rem;
-    padding: 1rem;
+    padding: 0 12%;
     margin-left: 0.25rem;
     margin-right: 0.25rem;
     background-color: #323232;
@@ -24,7 +24,6 @@
         color: white;
         font-family: Arvo, Arial;
         font-size: 20px;
-        margin-left: 5rem;
     }
 
         .header .logo a {

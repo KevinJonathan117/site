@@ -11,8 +11,16 @@
     .content p {
         padding-bottom: 2.77rem;
         line-height: 1.5;
-        text-align: center;
+        font-size: 1.5rem;
         font-family: 'Work Sans' , sans-serif;
+    }
+    .content .first-letter {
+        float: left;
+        padding-right: 1.4rem;
+        font-family: 'Work Sans', serif;
+        font-size: 7.44rem;
+        color: black;
+        line-height: 0.87;
     }
 @media only screen and (max-width: 680px) {
     .content {
